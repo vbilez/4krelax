@@ -1,0 +1,876 @@
+body {
+    overflow-x: hidden;
+}
+
+.playlist_and_duration .video_duration::after{
+    content: " | ";
+}
+
+.playlist_name{
+    text-decoration: underline;
+    color: #c4d700;/*created terrr*/
+    font-size: 14px;/*created terrr*/
+}
+
+.dn, #cars {
+    display: none !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg_image2 {
+    top: 0 !important;
+    position: absolute;
+    min-width: 100%;
+    left: 0;
+    min-height: 100%;
+}
+#regtabs.whiteblink .tabLink, #regtabs.whiteblink .tablink {
+	color: #fff;
+}
+.video-frame {
+	position: relative;
+}
+.video-frame img {
+	max-width: 100%;
+	display: block;
+}
+.video-frame iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+.owl-nav {
+    transform: translateY(-70px);
+}
+
+.free-preview-bg .owl-nav {
+    transform: translateY(-50px);
+}
+
+.custom-slide {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.free-preview-bg .fp-slider, .fp-text, .how-text, .signup-text {
+    width: 85% !important;
+}
+
+.fps-s-block {
+    display: none !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+span.more strong {
+    position: relative;
+    left: 8px;
+}
+
+span.more strong img {
+    width: 14px;
+    position: relative;
+    top: -1px;
+
+}
+
+span.more strong.showMore {
+    transform: rotate(180deg);
+    top: 0
+}
+
+span.more {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 16px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.marks {    
+    line-height: 18px;
+    position: absolute;
+    right: 11px;
+    left: 12px;
+    top: 12px;
+}
+
+.marks div{
+    position: absolute;
+    right: 0;
+    padding: 6px; /*fixed terry bylo padding: 0 7px; */
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.marks div:nth-Child(1){
+    top:0px;
+}
+.marks div:nth-Child(2){
+    top:36px; /*fixed terry bylo 20px; */
+}
+.marks div:nth-Child(3){
+    top:40px;
+}
+.marks .free{
+    background: #05b105;
+}
+.marks .hdr{
+    background-color: #ffbc00;
+}
+.marks .new{
+    background-color: #868585;
+}
+
+.marks .free::after{
+    content:"Free video";
+}
+.marks .hdr::after{
+    content:"HDR";
+}
+.marks .new::after{
+    content:"New";
+}
+
+
+
+#loginform {
+    display: flex;
+    justify-content: center
+}
+
+.darkfullwidth.darkfullwidth2 {
+    height: auto;
+    padding-bottom: 100px;
+    min-height: 100%;
+}
+
+.darkfullwidth.darkfullwidth2 .licenceformsuccess, .contactformsuccess, .lic_form, .businessform,
+.custom-form .licenceformsuccess, .contactformsuccess, .lic_form, .businessform{
+    height: auto;
+
+}
+
+.subscriptiontab.subscriptiontab2{
+    display: block!important;
+}
+
+.darkfullwidth.darkfullwidth2 .subscriptionform ,
+.custom-form .subscriptionform {
+    height: auto;
+}
+
+.custom-form .subscriptionform{
+    top: 0;
+}
+
+.custom-form .loginform input[type=text],
+.custom-form .subscriptionform input[type=text],
+.custom-form .subscriptionform input[type=tel],
+.custom-form .subscriptionform input[type="password"]{
+    border: 2px solid #000;
+    color: #000;
+}
+
+.custom-form input::placeholder,
+.custom-form .businessform p,
+.custom-form .securessl{
+    color: #000000!important;
+}
+
+.custom-form .securessl img{
+    filter: brightness(0);
+}
+
+#ss{
+    display: none;
+}
+
+#regtabs h5 span{
+    position: relative;
+}
+
+#regtabs h5 span strong{
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    font-size: 12px;
+    color: #c4d700;
+    font-weight: 400;
+}
+
+.custom-form{
+    background-color: #fff;
+    color: #000000;
+    padding: 40px 0 30px;
+}
+
+.custom-form h5{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom-form h5 span{
+    position: relative;
+}
+
+.custom-form h5 span:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 2px;
+    background-color: #c4d700;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+.checklabel:before{
+    position: absolute;
+}
+
+#payment-form.formVertical .checklabel:before{
+    top: auto;
+    right: auto;
+}
+
+.formWhiteOnBlack, .formWhiteOnBlack a,formWhiteOnBlack p ,formWhiteOnBlack div{
+    color: white;
+}
+
+.formBlackOnWhite, .formBlackOnWhite p, .formBlackOnWhite a, .formBlackOnWhite div{
+    color: black;
+}
+
+.personalform .checklabel:before{
+    left: 22px;
+}
+.subscriptionform .personalform .checklabel {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: calc(50% - 10px);
+    max-height: 136px;
+}
+.personalform .checklabel a{
+    display: flex;
+}
+/*.checklabel:before{
+        display: none !important;
+}*/
+.personalform .checklabel .before {
+    left: 22px;
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 400px;
+    -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+}
+
+.chlb-active .before {
+    background: #c4d700;
+}
+.loginpage .darkfullwidth.darkfullwidth2{
+    min-height: calc(100vh - 130px);
+}
+.loginpage .custom-form{
+    display: none;
+}
+.loginpage.d .custom-form{
+    display: block;
+}
+.sub .darkfullwidth{
+    background-image: url(../img/w-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-blend-mode: color;
+}
+#the_name{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.btn-playlist .iconAddPlaylist,.btn-playlist .iconRemovePlaylist {
+    margin-right: 8px;
+    width: 20px;
+}
+.btn-playlist .iconRemovePlaylist {
+    transform: scale(.6);
+}
+
+.btn-playlist.added{
+    background-color: #88bd0e;
+}
+.btn-playlist{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding: 4px 20px;
+    line-height: 28px;
+    cursor: pointer;
+    width: auto;
+    white-space: nowrap;
+    background-color: #c4d700;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    transition: all .35s ease ;
+    margin-left: 20px;
+}
+
+#the_name[in_favorites="1"] .btn-playlist[add="1"]{
+    display: none;
+}
+#the_name[in_favorites="0"] .btn-playlist[add="0"]{
+    display: none;
+}
+
+/*.loginpage{
+    background-size: cover; 
+}removed by terry */
+
+.my-carousel.owl-carousel .owl-stage-outer{
+    margin-bottom: 0;
+}
+.my-carousel{
+    overflow: hidden;
+    margin-top: -35px;
+}
+
+.my-carousel .owl-nav .owl-next{
+    right: 4rem;
+    transform: translateY(-50%);			
+}
+.my-carousel .owl-nav .owl-prev{
+    left: 2rem;
+    transform: translateY(-50%);			
+}
+.my-carousel .owl-dots {
+    z-index: 111;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.my-carousel .owl-dots .owl-dot{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #c4d700;
+    border-radius: 10em;
+    margin: 5px;
+}
+.my-carousel .owl-dots .owl-dot.active{
+    background-color: #fff;
+
+}
+.my-carousel .owl-nav {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 10;
+}
+
+.my-item>*{
+
+    z-index: 5;
+}
+.my-item{
+    min-height: 400px; /*fixed terry bylo 593px*/
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+    align-items: flex-start;
+    padding: 20px 6rem;
+    padding-bottom: 80px;
+    align-items: center;
+}
+.descr span{
+    color: #c4d700;
+}
+.descr{
+    padding: 20px 6rem;
+    font-size: 25px;/*fixed terry bylo 16px*/
+    line-height: 30px;/*created terry bylo 16px*/
+
+}
+.my-item h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;/*created terry*/
+
+}
+.my-item p{
+    color: #ddd;
+    font-size: 21px;/*created terry*/
+    font-weight: 200;/*created terry*/
+    margin-right: 0px;/*created terry*/
+}
+.my-item .btn{
+    margin-top: 30px;
+}
+.overlay-item{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,.4)
+
+}
+.navbar-4k-style{
+    background-color: #333;
+    border-bottom: 1px solid;
+}
+.search-div{
+    border-top: 1px solid #9fabb7;
+}
+.search-div span{
+    position: relative;
+}
+.search-div span img{
+    position: absolute;
+    width: 18px;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-div span input{
+    padding: 6px;
+    border: 2px solid #8e8c8c;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+.carousel-name{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.hoursAndCount{
+    position: absolute;
+    right: 0;
+    top:25px;
+}
+.showAll{
+    position: absolute;
+    top:0;
+    right:0;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 22px; /*fixed terry bylo 22px*/
+    color: #c4d700;
+    border-bottom: 1px solid #c4d700;
+    cursor: pointer;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+.showAll:hover{
+    color: #05b105;
+    border-bottom: 1px solid #05b105;
+
+}
+.title-carousel{
+    z-index: 20;
+    position: relative;
+    /*height: 30px; removed terry*/
+    margin: 20px 0; /*fixed terry bylo 30px*/
+}
+
+.title-carousel h4 {
+    font-size: 30px;/*fixed terry bylo 25px*/
+    color: #000;
+    font-weight: 400;  
+}
+.title-carousel h4 i{
+    color: #c4d700;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.title-carousel h4 a:hover{
+    color: #c4d700;
+}
+.title-carousel h4 a:hover i{
+    color: #000;
+}
+
+.item-list{
+    /*margin-bottom: 65px;*/
+    height: auto;
+}
+
+.playlist-desc{
+    padding: 10px;
+}
+/*------created terry--------*/
+
+span.video_duration {
+    font-size: 14px;
+    color: #868e96;
+}
+
+input#user_name {
+    border: 2px solid rgb(27, 26, 26);
+    border-radius: 3px;
+    line-height: 30px;
+}
+
+/*------created terry--------*/
+
+@media (max-width: 992px) {
+    .avalid-social {
+        display: none !important;
+    }
+
+    .aligner-video {
+        width: 100%;
+    }
+
+    .aligner-video iframe {
+        width: 100% !important;
+    }
+    .my-item{
+        min-height: 400px;
+    }
+
+}
+
+@media (max-width: 778px) {
+    .aligner-video iframe {
+        width: 100% !important;
+        height: 330px !important;
+    }
+
+    #slides {
+        height: 500px !important;
+    }
+
+    .carousel-block {
+        padding-bottom: 10px; /*fixed terry bylo 0*/
+        padding-top: 10px; /*created terry*/
+    }
+    .subscriptionform .personalform .checklabel{
+        width: calc(100% - 10px);
+    }
+    .xs-hidden{
+        display: none;
+    }
+    .btn-playlist .iconAddPlaylist, .btn-playlist .iconRemovePlaylist{
+        margin-right: 0;
+    }
+    .btn-playlist{
+        padding: 4px 11px;
+    }
+    .my-carousel .owl-nav{
+        display: none;
+    }
+    .my-item{
+        padding: 20px 2rem;
+        padding-bottom: 40px;
+    }
+    .my-item h2{
+        font-size: 28px;
+    }
+    .my-item p{
+        font-size: 14px;
+    }
+    .my-carousel .owl-dots{
+        bottom: 20px;
+    }
+    .descr{
+        padding: 20px 2rem;
+        font-size: 20px; /* added terry*/
+    }
+    .showAll{
+        font-size: 13px;
+        height: 18px;
+    }
+    .hoursAndCount {
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    .title-carousel h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hideOnPhone{
+        display:none;
+    }
+
+    .fp-slider {
+        padding-top: 85px;
+    }
+
+    .hide-when-logged {
+        margin-bottom: 0;
+    }
+
+
+    .title-carousel, .title-carousel h4, .title-carousel h4 i{
+        font-size: 20px;/*fixed by terry bylo 14px*/
+    }
+    .title-carousel h4{
+        display: inline-block;
+        position:relative;
+        width: calc(100% - 80px);
+        text-overflow: ellipsis;
+        overflow:hidden;
+        /*white-space: nowrap; removed by terry*/
+    }
+    .my-item{
+        min-height: 360px;/*created by terry*/
+    }
+}
+
+@media (max-width: 480px) {
+    .my-item{
+        min-height: 320px;/*created by terry*/
+    }
+}
+
+@media (max-width: 376px) {
+    .signup-text p {
+        font-size: 18px;
+    }
+
+    .free-preview-bg .fp-slider, .fp-text, .how-text, .signup-text {
+        width: 90% !important;
+    }
+
+    .about {
+        padding-bottom: 30px;
+    }
+
+    .signup-text {
+        margin-top: -50px;
+    }
+
+    .free-preview-bg .fp-slider, .fp-text, .how-text, .signup-text {
+        width: 79% !important;
+    }
+}
+.play-list-names {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.play-list-names {
+	/* overflow: hidden; */
+	height: 60px;
+}
+.play-list-names .item span,
+.play-list-names .item a {
+	padding: 20px 30px;
+	border-radius: 10px;
+	background: #ccc;
+	display:block; 
+	transition: all 0.3s ease 0s;
+	color: #fff;
+}
+.play-list-names .item span,
+.play-list-names .item.active a,
+.play-list-names .item a:hover {
+	transition: all 0.3s ease 0s;
+	background: #c4d700;
+}
+.play-list-names .owl-prev,
+.play-list-names .owl-next {
+	margin-top:-78px;
+}
+#regtabs.lics .tablink[data="lic_form"] {
+	cursor: pointer;
+}
+.account-settings-page .header-h h5 {
+	position: relative;
+	border-bottom: 2px solid transparent;
+}
+.account-settings-page .header-h .active {
+	border-bottom: 2px solid #333;
+}
+.add-device-section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.add-device-section .page-title {
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 40px
+}
+.add-device-section .subtitle {
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 40px;
+	line-height: 1.3;
+}
+.add-device-section {
+	width: 600px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.add-device-section form input {
+	width: 100%;
+	height: 60px;
+	border: 2px solid #222;
+	border-radius: 4px;
+	color: #222;
+	text-align: center;
+	padding-left: 15px;
+	font-size: 20px;
+}
+.add-device-section form button {
+	width: 100%;
+	height: 60px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background: #c4d700;
+	margin-top: 15px;
+	font-size: 26px
+}
+.add-device-section form button,
+.add-device-section form input {
+	outline: none !important;
+}
+.add-device-section form input::-webkit-input-placeholder {
+	color: #333;
+}
+
+.add-device-section form input:-ms-input-placeholder {
+	color: #333;
+}
+
+.add-device-section form input::placeholder {
+	color: #333;
+}
+.slick-prev:after {
+	font-family: FontAwesome;
+	content: url('https://api.iconify.design/fa:angle-left.svg?color=%23ddd&height=50');
+	position: absolute;
+	color: #ddd;
+	left: -25px;
+	top: -4px;
+	width: 20px;
+	height: 40px;
+	letter-spacing: 0;
+	font-size: 30px;
+}
+.slick-next:after {
+    font-family: FontAwesome;
+	content: url('https://api.iconify.design/fa:angle-right.svg?color=%23ddd&height=50');
+	position: absolute;
+	color: #ddd;
+	left: 20px;
+	top: -4px;
+	width: 20px;
+	height: 40px;
+	letter-spacing: 0;
+	font-size: 30px;
+}
+
+.play-list-names {
+	padding: 0 30px;
+	position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+.slick-prev {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	border: none;
+	height: 40px;
+	width: 20px;
+	background: none;
+	outline: none !important;
+}
+.slick-next {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	border: none;
+	height: 40px;
+	background: none;
+	outline: none !important;
+	width: 20px
+}
+.slick-prev:focus,
+.slick-next:focus {
+	outline: none !important;
+}
+.about-subscription {
+    color: #c1c7ca !important;
+    margin-top: 26px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c1c7ca;
+    margin-bottom: 20px;
+}
+.about-subscription * {
+    color: #c1c7ca !important;
+}
+.about-subscription .total-label {
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+.about-subscription .price-label span {
+    font-size: 24px;
+}
+.about-subscription .price-label {
+    font-size: 16px;
+}
+
+@media (max-width: 480px) {
+	.slick-prev, .slick-next{
+		display: none !important;
+	}
+	.play-list-names {
+		padding: 0 12px;
+	}
+    .about-subscription .total-label,
+    .about-subscription .price-label span {
+        font-size: 18px;
+    }
+    .sub-and-there {
+        justify-content: space-around;
+        text-align: center;
+    }
+    .sub-and-there .ston {
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
