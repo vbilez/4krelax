@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Slickplaylists= (props) => {
-    console.log(props);
    return(
  <section className="playlists-s">
   <div className="container">

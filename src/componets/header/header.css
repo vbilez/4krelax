@@ -1,16 +1,28 @@
 .header {
-    background: #3a3838;
+    background: rgba(0,0,0,.8);;
     width: 100%;
+    margin-bottom: 35px;
+    font-family: oswald;
 }
+
+.header35 {
+    margin-top: -35px;
+}
+
 
 .header-content {
     width: 98%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
+.header-content img {
+    /* margin-bottom: 40px; */
+    
+    
+}
 .header-content nav ul {
     display: flex;
     justify-content: space-around;
@@ -19,14 +31,19 @@
 }
 
 .header-content nav ul li {
-    border-bottom: 3px solid #b7ca00;
+    /* border-bottom: 3px solid #b7ca00; */
     margin-left: 19px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.header-content nav ul li a{
+   color: white;
 }
 
 .login-box {
-    margin-top: 35px;
+    /* margin-top: 35px; */
     font-size: 22px;
     color: #fff;    
     font-weight: 500;
@@ -34,9 +51,105 @@
     cursor: pointer;
 }
 
-.login-box a:nth-child(2) {
-    margin-left: 20px;
-    border-radius: 10px;
+.login-box a:nth-child(3) {
+    margin-left: 16px;
+    border-radius: 4px;
     background: #b7ca00;
-    padding: 10px;
+    padding: 5px 14px;  
+    font-size: 16px;
+    
+}
+.header-text {
+    color: #fff;
+}
+.fa-android::before {
+    /* content: url('https://api.iconify.design/ant-design:android-filled.svg?height=30&color=white'); */
+}
+.fa-apple::before {
+    /* content: url('https://api.iconify.design/ant-design:apple-filled.svg?height=30&color=white'); */
+
+}
+.fa-amazon::before {
+    /* content: url('https://api.iconify.design/foundation:social-amazon.svg?height=35&color=white'); */
+}
+.fa-roku::before {
+    /* content: url('https://api.iconify.design/simple-icons:roku.svg?height=70&color=white'); */
+}
+
+.header-content-icons {
+    display: flex;
+    align-items: center;
+
+}
+.fa-play-circle {
+    /* content: url('https://api.iconify.design/ic:sharp-play-circle.svg?height=27&color=white');
+    vertical-align: -0.25em; */
+}
+
+
+
+
+.logoimg {
+    margin: auto;
+}
+
+.navstyle{
+    padding-left: 20px;
+}
+
+.socialicon{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.menuul li a:after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background: #c4d700;
+}
+
+.menuul li a {
+
+    position: relative;
+    
+}
+.menuul li a:hover
+{
+    color: #c4d700;
+}
+
+.menuul li a:hover::after
+{
+    background: #fff;
+}
+
+.menuul {
+    margin-bottom: 0;
+}
+.someaclass {
+    font-size: 20px;
+    padding: 22px 4px;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 22px 4px;
+    position: relative;
+    line-height: 120%;
+}
+
+.mr-auto
+{
+    margin-right: auto!important;
+}
+
+
+.faaple a:hover {
+ color:#ccc;
 }

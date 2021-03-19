@@ -19,7 +19,7 @@ var myvideo;
         
         <div>
        <div id="video_container">
-        <iframe className="black_back" src={source} width="2560" height="532.125" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen="" title={title} __idm_id__="819894273" data-ready="true"></iframe>
+        <iframe className="black_back" src={source} width="100%" height="532.125" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen="" title={title} __idm_id__="819894273" data-ready="true"></iframe>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
     </div>

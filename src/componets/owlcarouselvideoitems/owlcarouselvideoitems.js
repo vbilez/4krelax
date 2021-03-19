@@ -4,7 +4,7 @@ const OwlCarouselVideoItems = (props) => {
    
    return <React.Fragment>{props.videos.map((item) => {
        var itemstyle = item.lock ? 'item-style-lock':'item-style-play';
-    return  <div className="item">
+    return  <div key={item.id} className="item">
                                 <a href={item.link}>
                                     <div className={"c-item-style " + (itemstyle)}>
                                         <div className="marks"><div className="new"></div></div>

@@ -1,0 +1,493 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+
+/*   01 - Import Google web fonts                */
+/*   02 - General Style                          */
+/*   03 - Typography                             */
+/*   04 - Buttons                                */
+/*   06 - Navbar                                 */
+/*   07 - Carousel, Loader                       */
+/*   08 - Header Navigation                      
+*/ 
+/* 1 - SECTION SPECIFIC CSS
+/*	 1.1 - ABOUT-US SECTION
+/*	 1.2 - INFORMATION SECTION
+/*	 1.3 - INFORMATION 2 SECTION
+/*	 1.4 - WORKING SECTION
+/*	 1.5 - GALLERY SECTION
+/*	 1.6 - HELP SECTION
+/*	 1.7 - CONTACTS SECTION
+/*	 1.8 - FOOTER SECTION
+
+
+
+
+/*---------------------------------------
+   01. IMPORT GOOGLE WEB FONTS                
+-----------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500');
+
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
+}
+/* ==========================================================================
+   02. GENERAL STYLE
+========================================================================== */ 
+body {
+ 
+}
+
+/*---------------------------------------
+   CONTENT
+-----------------------------------------*/
+
+.owl-dot span {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.owl-dot:focus {
+    outline: 0 !important;
+}
+.owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.owl-stage-outer {
+    margin: 0 0px;
+    z-index: 2;
+}
+
+.owl-prev {
+    left: -40px;
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    font-size: 0px;
+}
+
+.owl-prev span {
+    display: none;
+}
+
+
+.owl-next span {
+    display: none;
+}
+.owl-prev:after { 
+    font-family: FontAwesome;
+    content: url('https://api.iconify.design/fa:angle-left.svg?color=%23ddd&height=50');
+    position: absolute;
+    color: #ddd;/*fixed terry bylo #c4d700*/
+    left: 0px;
+    top: 36px;/*fixed terry bylo 0px*/
+    width: 20px;
+    height: 20px;
+    letter-spacing: 0;
+    font-size: 30px;
+}
+
+.owl-next {
+    position: absolute;
+    right: -20px;
+    display: block;
+    margin-top: -40px;
+    font-size: 0px;
+}
+
+.owl-next:after { 
+    font-family: FontAwesome;
+    content: url('https://api.iconify.design/fa:angle-right.svg?color=%23ddd&height=50');
+    position: absolute;
+    color: #ddd;/*fixed terry bylo #c4d700*/
+    left: 0px;
+    top: 36px;/*fixed terry bylo 0px*/
+    width: 20px;
+    height: 20px;
+    letter-spacing: 0;
+    
+}
+.owl-next.disabled, .owl-prev.disabled {
+    display: none;
+}
+
+
+.c-item-style {
+    position: relative;
+}
+
+.item-style-lock:after { 
+    font-family: FontAwesome;
+    content: url('https://api.iconify.design/fa:lock.svg?height=25&color=white');
+    position: absolute;
+    color: #fff;
+    left: 14px;
+    bottom: 5px;
+    width: 36px;
+    height: 40px;
+    letter-spacing: 0;
+    font-size: 28px;
+}
+.item-style-play:after{
+    font-family: FontAwesome;
+    /* content: url('https://api.iconify.design/fa-play-circle-o.svg?height=30&color=white'); */
+  
+    position: absolute;
+    color: #fff;
+    left: 14px;/*fixed terry bylo 50%*/
+    /*margin-left: -30px; removed terry*/
+    /*margin-bottom: -30px; removed terry*/
+    bottom: -1px;/*fixed terry bylo 50%*/
+    width: 48px;
+    height: 48px;
+    line-height: 50px;
+    font-size: 30px;/*fixed terry bylo 55px*/
+}
+.fa-play-circle-o::before{
+    /* content: url('https://api.iconify.design/fa-play-circle-o.svg?height=25&color=%23c4d700')!important; */
+}
+
+
+.c-item-info {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.c-item-info .cir-st1 {
+    font-weight: 300;
+    color: #000;
+    font-size: 22px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;  
+    margin-bottom: 10px;/*created by terry*/
+    text-decoration: none;
+}
+.item a:hover .cir-st1{
+    color: #cccccc;
+    text-decoration: none;
+}
+.cir-st1{
+    text-decoration: none;
+}
+.col-8 .cir-st1{
+    padding-left: 15px!important;
+}
+.pri{
+    padding-right: 15px!important;
+}
+.item a:hover .c-item-style:before{
+    content: "";
+    /*background: rgba(0, 0, 0, 0.2); removed by terry*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+}
+
+.c-item-info .cir-st2 {
+    background: #c4d700;
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 19px;
+    line-height: 19px;
+    padding: 5px 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.c-item-info--st2{
+    text-align: right;
+    max-width: 100px;
+    padding: 0 0 0 0;
+    position: absolute;
+    right: 0px;
+}
+
+.c-item-info-st2{
+    text-align: right;
+    max-width: 100px;
+    padding: 0 15px 0 0;
+    position: absolute;
+    right: 0px;
+}
+
+.wrapper-demo {
+    margin-bottom: -25px;
+}
+
+.wrapper-demo:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
+/* DEMO 3 */
+
+.wrapper-dropdown-3 {
+    /* Size and position */
+    position: relative;
+    width: 197px;
+    margin: 0 auto;
+    padding: 10px 13px;
+    float: right;
+    z-index: 3;
+
+    /* Styles */
+    background: #ebebeb;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+
+    /* Font settings */
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+}
+
+.wrapper-dropdown-3:after {
+    font-family: FontAwesome;
+    content: "\f107";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    right: 14px;
+    top: 50%;
+    line-height: 18px;
+    font-size: 18px;
+    margin-top: -9px;
+    color: #c4d700;
+    border: 2px solid #c4d700;
+    border-radius: 50%;
+}
+
+.wrapper-dropdown-3 .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 137%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    /* Styles */
+    background: #ebebeb;
+    border-radius: inherit;
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-3 .dropdown li:hover a {
+    background: #dedede;
+}
+
+/* Active state */
+
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* No CSS3 support */
+
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+
+
+
+
+
+/* and Drop-Down*/
+
+
+
+
+/*---------------------------------------
+   1.8 FOOTER SECTION
+-----------------------------------------*/
+
+p {
+    text-decoration: none !important;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+.footer > div {
+
+    padding: 40px 0;
+}
+
+.footer p {
+    font-weight: 200;
+}
+.footer p a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.footer-info {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.footer-copy {
+    font-size: 16px;
+}
+
+.footer-menu {
+    margin-bottom: 30px;
+}
+
+.footer-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-menu li a {
+    margin: 0;
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-menu .active a , .footer-menu li a:hover{
+    color: #c4d700;
+}
+
+
+
+/*---------------------------------------
+   1.8 Playlists
+-----------------------------------------*/
+.navbar-4k-style.playlist-4k  {
+    background: #000;
+    margin-bottom: 50px;
+
+}
+
+
+.item.item-pl {
+    margin-bottom: 20px;
+}
+
+.item-pl img{
+    max-width: 100%;
+}
+
+
+.s-w1 {
+
+}
+.playlists-s {
+    /* margin-top: 100px; */
+}
+
+.footer-plalist{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+a.startFree  {
+    color:white;
+}
+
+
+a:hover   {
+    text-decoration: none;
+}
+
+a:focus   {
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar-nav-style.navbar-nav li a:after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background: #c4d700;
+}
+

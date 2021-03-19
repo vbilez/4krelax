@@ -1,15 +1,15 @@
 import './App.css';
-import HeaderBootstrap from './componets/header-bootstrap/header-bootstrap';
-import FooterBootstrap from './componets/footer-bootstrap/footer-bootstrap'
+import Header from './componets/header/header';
+import Footer from './componets/footer/footer'
 import Pages from './pages/pages';
 
 function App() {
   return (
     <>
       {/* <Header /> */}
-      <HeaderBootstrap />
+      <Header />
       <Pages />
-      <FooterBootstrap />
+      <Footer />
       
     </>
   );

@@ -31,17 +31,17 @@
 
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
 }
 /* ==========================================================================
    02. GENERAL STYLE
 ========================================================================== */ 
 body {
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif !important;
     /*font-family: "Raleway", sans-serif;*/
     font-size: 16px;
-    line-height: 20px;
+    /* line-height: 20px !important; */
     color: #000000;/*fixed terry bylo #766547*/
     font-weight: 300;
     padding: 0;
@@ -736,7 +736,7 @@ a:focus   {
     text-transform: uppercase;
     padding: 22px 4px;
     position: relative;
-    line-height: 100%;
+    line-height: 120%;
 
 }
 .navbar-4k-style .navbar-nav-style.navbar-nav li a:hover{
@@ -759,13 +759,11 @@ a:focus   {
 
 .logo {
     padding: 0px 0 0px 5px;
-    margin-right: 60px;
+    margin-right: 60px !important;
 
 }
 
-.more-inform{
 
-}
 
 .more-inform{
     font-size: 16px;
@@ -799,6 +797,7 @@ a:focus   {
 
 .sign-in:hover{
     background: #b7ca00;
+    color: #fff !important;
     -webkit-transition: background 0.15s ease;
     -moz-transition: background 0.15s ease;
     -o-transition: background 0.15s ease;
@@ -853,6 +852,9 @@ a:focus   {
 
 .avalid-social{
     display: flex;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 0!important;
 }
 
 .avalid-social p{
@@ -1247,7 +1249,7 @@ input:focus ~ .highlight {
     border: 2px solid #fff;
     display: inline-block;
     padding: 12px 34px 8px 34px;
-    margin-top: 15px;
+    margin-top: 7px;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
     border-radius:2px;
@@ -1268,6 +1270,7 @@ input:focus ~ .highlight {
     font-weight: 500;
     font-size: 27px;
     margin-bottom: 4px;
+    line-height: 1;
 }
 
 .bottom-free span:last-child{
@@ -1322,7 +1325,7 @@ input:focus ~ .highlight {
     display: inline-block;
     width: 20px;
     font-size: 29px;
-    top: 6px;
+    top: -5px;
     left: 0px;
     height: 20px;
 }
@@ -1334,11 +1337,18 @@ input:focus ~ .highlight {
 }
 
 .item-list {
-    margin-bottom: 30px;    
+    margin-bottom: -30px;    
     height: 300px;/*-bylo 237--*/
+}
+.item-list-adv {
+     margin-bottom:12px;     
+    height: auto;/*-bylo 237--*/
 }
 .videos-list{
     /*height: 191px;*/
+}
+.videos-list-adv{
+    height: 191px;
 }
 .bottom-show{
     text-align: center;
@@ -1352,12 +1362,13 @@ input:focus ~ .highlight {
     border-radius: 4px;
     font-size: 20px;
     padding: 12px 48px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: inline-block;
 }
 
 .bottom-show a:hover{
     background: #b7ca00;
+    color: white !important    ;
 }
 section.how li {
     display: inline-block;
@@ -1467,8 +1478,7 @@ section.how li {
 }
 .item-style-play:after{
     font-family: FontAwesome;
-    content: url('https://api.iconify.design/fa-play-circle-o.svg?height=30&color=white');
-  
+    /* content: url('https://api.iconify.design/fa-play-circle-o.svg?height=30&color=white');*/
     position: absolute;
     color: #fff;
     left: 14px;/*fixed terry bylo 50%*/
@@ -1481,7 +1491,7 @@ section.how li {
     font-size: 30px;/*fixed terry bylo 55px*/
 }
 .fa-play-circle-o::before{
-    content: url('https://api.iconify.design/fa-play-circle-o.svg?height=25&color=%23c4d700')!important;
+    /* content: url('https://api.iconify.design/fa-play-circle-o.svg?height=25&color=%23c4d700')!important; */
 }
 
 
@@ -1774,7 +1784,7 @@ p {
 
 }
 .playlists-s {
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .footer-plalist{
@@ -1900,20 +1910,7 @@ p {
     color: #c4d700;
 }
 
-.sign-in-v{
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-left: 5px;
-}
-.sign-in-v:hover{
-    color: #fff;
-    background: #b7ca00;
-    -webkit-transition: background 0.15s ease;
-    -moz-transition: background 0.15s ease;
-    -o-transition: background 0.15s ease;
-    transition: background 0.15s ease; 
-}
+
 .box-inf-v p, .box-inf-v a{
     display: inline-block;
 }
@@ -2284,7 +2281,7 @@ a.box2-i-more {
 .box2-i-more{
     font-weight: 500;
     text-transform: uppercase;
-    color: #C4D700 !important
+    color: #C4D700 !important;
         background: transparent;
     border: 2px solid #fff;
     border-radius: 4px;
@@ -2298,7 +2295,7 @@ a.box2-i-more {
 }
 
 .box2-i-more:hover{
-    color: #fff;
+    color: #fff !important;
     background: #b7ca00;
 
 }
@@ -3285,9 +3282,134 @@ input.cart-cvv1::placeholder {
 
 .playlists-scrollbox
 {
-    padding-left: 25px !important;
-    padding-right: 0px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
+
+.c-item-style:before {
+    content:"";
+    display:none;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+  }
+
+  .c-item-style.newoverlay:before {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+  }
+
+
+  .search-div span input {
+    padding: 6px;
+    border: 2px solid #8e8c8c;
+    border-radius: 3px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.search-div input {
+    width: 100%;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.search-div {
+    border-top: 1px solid #9fabb7;
+    
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.search-div {
+   
+    text-align: right;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+}
+
+.search-div span img {
+    position: absolute;
+    width: 18px;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container {
+    max-width: 91% !important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width: 576px){
+    .container-custom {
+    max-width: 540px;
+}}
+@media (min-width: 768px){
+    .container-custom {
+    max-width: 720px;
+}}
+@media (min-width: 992px){
+    .container-custom {
+    max-width: 960px;
+}}
+@media (min-width: 1200px){
+    .container-custom {
+    max-width: 1140px;
+}}
+@media only screen and (min-width: 1500px){
+    .container-custom {
+        max-width: 1190px;
+    }
+    }
+
+   
+    
+   
+   
+.container-custom {
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0!important;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0!important;
+}
+
+.lighterfont {
+    font-weight: lighter;
+}
+
+
+
+
+
 
 
 

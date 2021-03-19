@@ -422,7 +422,7 @@ span.more {
     padding: 20px 6rem;
     font-size: 25px;/*fixed terry bylo 16px*/
     line-height: 30px;/*created terry bylo 16px*/
-
+    margin-top: 20px;
 }
 .my-item h2{
     color: #fff;
@@ -482,6 +482,7 @@ span.more {
     position: absolute;
     right: 0;
     top:25px;
+    font-weight: 200;
 }
 .showAll{
     position: absolute;
@@ -495,6 +496,7 @@ span.more {
     cursor: pointer;
     margin-left: 20px;
     white-space: nowrap;
+    font-weight: 200;
 }
 .showAll:hover{
     color: #05b105;
@@ -527,7 +529,7 @@ span.more {
 
 .item-list{
     /*margin-bottom: 65px;*/
-    height: auto;
+     height: auto;
 }
 
 .playlist-desc{
@@ -700,6 +702,7 @@ input#user_name {
 	display:block; 
 	transition: all 0.3s ease 0s;
 	color: #fff;
+    font-weight: 200;
 }
 .play-list-names .item span,
 .play-list-names .item.active a,
@@ -810,7 +813,7 @@ input#user_name {
 .slick-prev {
 	position: absolute;
 	top: 10px;
-	left: 0;
+	left: -6px;
 	border: none;
 	height: 40px;
 	width: 20px;
@@ -820,7 +823,7 @@ input#user_name {
 .slick-next {
 	position: absolute;
 	top: 10px;
-	right: 0;
+	right: -16px;
 	border: none;
 	height: 40px;
 	background: none;
@@ -873,4 +876,8 @@ input#user_name {
         margin-bottom: 15px;
         width: 100%;
     }
+}
+
+.hideOnPhone{
+    font-weight: 200;
 }

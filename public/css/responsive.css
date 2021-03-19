@@ -118,6 +118,8 @@
   }
     .bottom-free {
     margin-top: 9px;
+    min-width: 316px;
+    line-height: 1!important;
   }
   .c-item-info .cir-st1 {
     font-size: 17px;
