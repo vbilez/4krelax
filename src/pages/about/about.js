@@ -6,7 +6,6 @@ const About = () => {
      const queryString = "https://site.bringstream.com/Engine/api/apic.php?action=HelloWorld";
      fetch(queryString, {
   credentials: 'include',
-  mode: 'no-cors',
   method:"POST",
   body:JSON.stringify(data),
   signature:"e211da9e25556c879eb2f7ded07e179b7e3b9fe5"
