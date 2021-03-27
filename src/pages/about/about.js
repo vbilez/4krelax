@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
      const data = {};
      const privateKey="~UniHash-767250902345~";
-     const queryString = "https://site.bringstream.com/Engine/api/apic.php?action=HelloWorld";
+     const queryString = "https://site.bringstream.com/Engine/apic/apic.php?action=HelloWorld";
      fetch(queryString, {
   credentials: 'include',
   method:"POST",
