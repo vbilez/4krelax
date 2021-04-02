@@ -26,7 +26,7 @@ formData.append('signature','376651b1b65bbdf9d286df54abea42e93bcf7d11');
   })
   .then(data => 
     {
-         queryString = "//4krelax.bringstream.com/Engine/apic/apic.php?action=Multiple&openKey="+data.aOpenKey;
+        queryString = "//4krelax.bringstream.com/Engine/apic/apic.php?action=GetPlaylists&openKey="+data.aOpenKey;
         let formData = new FormData();
         let jsonData =JSON.stringify({"general":1,"new":1,"favorites":1,"statistic":1,"count":10,"playlists_fields":{"id":0,"name":30,"description":50,"premium":0,"free":0,"duration":0,"pictures":[640,1920],"videos_count":0},"videos":{"count":10,"fields":{"id":0,"name":30,"duration":0,"hdr":0,"pictures":[600],"position":0}}});
         let signature = sha1(queryString + data.aPrivateKey + '{"general":1,"new":1,"favorites":1,"statistic":1,"count":10,"playlists_fields":{"id":0,"name":30,"description":50,"premium":0,"free":0,"duration":0,"pictures":[640,1920],"videos_count":0},"videos":{"count":10,"fields":{"id":0,"name":30,"duration":0,"hdr":0,"pictures":[600],"position":0}}}');
