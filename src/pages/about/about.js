@@ -1,23 +1,7 @@
 import React from 'react'
 
 const About = () => {
-     const data = {};
-     const privateKey="~UniHash-767250902345~";
-     const queryString = "https://site.bringstream.com/Engine/apic/apic.php?action=HelloWorld";
-     fetch(queryString, {
-  credentials: 'include',
-  method:"POST",
-  body:JSON.stringify(data),
-  signature:"e211da9e25556c879eb2f7ded07e179b7e3b9fe5"
-})
-  .then(response => {
-   // if (!response.ok) throw Error(response.statusText);
-    return response.json();
-  })
-  .then(data => console.log("data", data))
-  .catch(error => {
-    console.log("error", error);
-  });
+     
     return (
         <React.Fragment>
             <section className="about">
