@@ -2,9 +2,10 @@ import React from 'react';
 import PlaylistCarousel from '../playlistcarousel/playlistcarousel';
 
 const PlaylistView = (playlists) => {
-    const listItems =playlists.playlists.map( ( {link, playlistname,videos} ) => {
-
-    return <PlaylistCarousel link={link} playlistname={playlistname} videos={videos}/>
+    console.log(playlists["playlists"][0].playlists);
+    const listItems =playlists["playlists"][0].playlists.map( ( {id,name,description,duration,premium,free,pictures,videos} ) => {
+    let link = "playlist/"+id;
+    return <PlaylistCarousel link={link} playlistname={name} videos={videos}/>
 });
 
     return (
