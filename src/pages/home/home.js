@@ -31,7 +31,7 @@ var filteredplaylists=[];
                              <div className="row">
                                  <div className="col-sm-12 col-md-6">
                                      <div className="container-animation cn-text">
-                                         <h3>Love the Earth – Relax with Nature!</h3>
+                                         <h3>Love the Earth – Relax with Nature!v1</h3>
                                          <strong>Turn on your TVs and stream relax videos in PREMIUM 4K &amp; 4K HDR quality.</strong>
                                          <div className="cn-text-style">
                                               <p>Take a deep breath, escape to beautiful natural destinations and experience nature like never before with a new app from Pro Art inc. An incredible collection of 4K &amp; 4K HDR nature relax videos with more than 1000 hours of sensational nature relax ad-free videos bring natural wonders closer!</p>

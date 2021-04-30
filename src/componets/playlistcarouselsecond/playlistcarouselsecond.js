@@ -4,7 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarouselVideoItems from '../owlcarouselvideoitems/owlcarouselvideoitems'
 const PlaylistCarouselSecond = ({link,playlistname,videos}) => {
-
+console.log(videos);
     const $=window.jQuery;
     return (
 <div className="item-list">

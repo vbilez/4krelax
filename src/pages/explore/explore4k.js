@@ -8,12 +8,155 @@ import PlaylistView from '../../componets/playlistview/playlistview';
 import PlaylistViewSecond from '../../componets/playlistviewsecond/playlistviewsecond';
 import Slickplaylists from '../../componets/slickplaylists/slickplaylists';
 import "./explore4k.css";
+import sha1 from 'crypto-js/sha1';
 const Explore = (props) => {
     const $=window.jQuery;
 var [filterplst, setFilterplst] = useState([]);
+const people = [
+  "Siri",
+  "Alexa",
+  "Google",
+  "Facebook",
+  "Twitter",
+  "Linkedin",
+  "Sinkedin"
+];
+const [searchTerm, setSearchTerm] = React.useState("");
+ const [searchResults, setSearchResults] = React.useState([]);
+  const handleChange = event => {
+    setSearchTerm(event.target.value);
+  };
+
+
+
+  
+
+   React.useEffect(async() => {
+   /* const results = people.filter(person =>
+      person.toLowerCase().includes(searchTerm)
+    );
+    */
+    const GetPlaylistsArray = async(data)=>{
+        let queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?action=GetPlaylists&openKey="+data.aOpenKey;
+        let   action="action=GetPlaylists&openKey="+data.aOpenKey;
+        let formData = new FormData();
+        let jsonData =`{"where":"LOWER(name) like :c","params":{"c":`+`"%${searchTerm}%"`+`},"general":1,"new":1,"favorites":1,"statistic":1,"count":10,"playlists_fields":{"id":0,"name":30,"description":50,"premium":0,"free":0,"duration":0,"pictures":[640,1920],"videos_count":0},"videos":{"count":10,"fields":{"id":0,"name":30,"duration":0,"hdr":0,"pictures":[600],"position":0}}}`;
+        let signature = sha1(action + data.aPrivateKey + jsonData);
+        console.log("privatekey",data.aPrivateKey);
+        formData.append('jsonData',jsonData);
+        formData.append('signature',signature);
+       await fetch(queryString, {
+                mode:"cors",
+                method:"POST",
+                body:formData
+        })
+        .then((response) => {
+            return  response.json();
+        })
+        .then(data => 
+            {console.log("searchdata",data); setSearchResults(data);$('.owl-carousel-c-second').owlCarousel({nav:true,
+        center:true,
+        items:4,
+        loop: true,
+        slideBy:2,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+                 loop: true,
+            },
+            600: {
+                items: 2,
+                nav: true,
+                 loop: true,
+            },
+            1000: {
+                items: 3,
+                nav: true,
+                 loop: true,
+            },
+            1200: {
+                items: 4,
+                nav: true,
+                 loop: true,
+            }
+        }}  );})
+            .catch(error => {
+            console.log("error", error);
+        });
+        console.log("datalogin",data);
+  }
+  const GetLoginAnonymous = async()=>{
+
+          const privateKey="~UniHash-767250902345~";
+     let action = "action=LoginAnonymous";
+     let endpoint = "https://4krelax.bringstream.com/Engine/apic/apic.php?";
+     let queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?"+action;
+      //const logindata ={"emailLogin":{"email":"dk@itf-ua.org","password":"&Px5foU7J[$g2[^"}};
+     let formData = new FormData();
+     let signature= sha1(action+privateKey+'{}')
+formData.append('jsonData','{}');
+formData.append('signature',signature);
+
+    await fetch(queryString, {
+         mode:"cors",
+         method:"POST",
+         body:formData
+})
+  .then((response) => {
+     
+    return response.json();
+  })
+  .then(data => 
+    { GetPlaylistsArray(data); ;
+         }
+
+
+    
+  )
+  .catch(error => {
+    console.log("error", error);
+  });
+  }
+
+
+
+   GetLoginAnonymous();
+   $('.owl-carousel-c-second').owlCarousel({nav:true,
+        center:true,
+        items:4,
+        loop: true,
+        slideBy:2,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+                 loop: true,
+            },
+            600: {
+                items: 2,
+                nav: true,
+                 loop: true,
+            },
+            1000: {
+                items: 3,
+                nav: true,
+                 loop: true,
+            },
+            1200: {
+                items: 4,
+                nav: true,
+                 loop: true,
+            }
+        }}  );
+  }, [searchTerm]);
 filterplst=props.plst;
 const [filterplstsc, setFilterplstsc] = useState(filterplst);
-const [isSearch, setIsSearch] = useState(false);
+const [isSearch, setIsSearch] = useState(true);
 var filteredplaylists=[];
     return (
        <React.Fragment> 
@@ -26,7 +169,9 @@ var filteredplaylists=[];
 <div className=" search-div col-md-11 mw " align="center">
             <span>
                 <img src="/img/search.svg" alt=""/>
-                <input type="text" id="search_video" name="search_video" placeholder="Search video" onChange={(event)=>{
+                <input type="text" id="search_video" name="search_video" placeholder="Search video" value={searchTerm} onChange={
+                    /*(event)=>{
+                    
 if(event.target.value!='' && event.target.value!=null){
     console.log(filterplst);
                       let searchString = event.target.value;
@@ -50,24 +195,27 @@ if(event.target.value!='' && event.target.value!=null){
                         }
                 
        }
+       */
+       handleChange
        }
        /> 
             </span>
         </div>
 </div>
+
 <Slickplaylists playlists={props.plst}/>
 <div >
 {isSearch ? (
     
 <div className=" playlists-scrollbox">
-<PlaylistViewSecond playlists={filterplst}/>
+<PlaylistViewSecond playlists={searchResults} start={props.plst} initial={true}/>
         </div>
   
 ):(
 
   
 <div className=" playlists-scrollbox">
-<PlaylistView playlists={props.plst}/>
+<PlaylistView playlists={searchResults}/>
         </div>
     
 )}

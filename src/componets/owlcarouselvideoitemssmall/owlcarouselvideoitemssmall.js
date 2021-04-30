@@ -11,7 +11,7 @@ const OwlCarouselVideoItemsSmall = (props) => {
        console.log(name);
    };
    return <React.Fragment>{props.videos.map((item) => {
-      var itemstyle = false ? 'item-style-lock':'item-style-play';
+       var itemstyle = false ? 'item-style-lock':'item-style-play';
        let itemlink="video/"+item.id;
     return  <div key={item.id} className="item" onClick={(e) => handleClick(item.name,itemlink,item.pictures["600"], e)}>
                               
