@@ -49,7 +49,7 @@ const Subscribe = () => {
         <div class="div-p">At the end of your 30-days free trial period, you will be charged according to the recurring subscription plan with the option to unsubscribe at any time. If you cancel the subscription before your trial ends, you won’t be charged.</div>
         <div class="div-p">*Concurrent multi-device function is not allowed (only 1 TV at a time)</div>
         </div>
-
+d
         <div class="personalform tab2 subscriptiontab dn" style="display: block;">
                 <p class="green-text">More than 1000 hours of videos in 4K &amp; 4K HDR quality</p>
                 <p class="green-text">For Small Business Partners: Doctors Offices, Hospitals, Retreats, Spas, Stress Management Programs, Nursing Homes, </p>
