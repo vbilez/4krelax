@@ -6,30 +6,30 @@ import Video from '../pages/video/video';
 import Playlists from '../pages/playlist/playlists';
 import sha1 from 'crypto-js/sha1';
 export default function Pl() {
-   /*
-     const privateKey="~UniHash-767250902345~";
-     let action = "action=LoginAnonymous";
-     let endpoint = "https://4krelax.bringstream.com/Engine/apic/apic.php?";
-     let queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?"+action;
+    /*
+    const privateKey="~UniHash-767250902345~";
+    let action = "action=LoginAnonymous";
+    let endpoint = "https://4krelax.bringstream.com/Engine/apic/apic.php?";
+    let queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?"+action;
       //const logindata ={"emailLogin":{"email":"dk@itf-ua.org","password":"&Px5foU7J[$g2[^"}};
-     let formData = new FormData();
-     let signature= sha1(action+privateKey+'{}')
+    let formData = new FormData();
+    let signature= sha1(action+privateKey+'{}')
 formData.append('jsonData','{}');
 formData.append('signature',signature);
 
-     fetch(queryString, {
-         mode:"cors",
-         method:"POST",
-         body:formData
+    fetch(queryString, {
+        mode:"cors",
+        method:"POST",
+        body:formData
 })
-  .then((response) => {
-     
+    .then((response) => {
+    
     return response.json();
-  })
-  .then(data => 
+    })
+    then(data => 
     {
-         queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?action=GetPlaylists&openKey="+data.aOpenKey;
-         action="action=GetPlaylists&openKey="+data.aOpenKey;
+        queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?action=GetPlaylists&openKey="+data.aOpenKey;
+        action="action=GetPlaylists&openKey="+data.aOpenKey;
         let formData = new FormData();
         let jsonData ='{"where":"id = 1","general":1,"new":1,"favorites":1,"statistic":1,"count":10,"playlists_fields":{"id":0,"name":30,"description":50,"premium":0,"free":0,"duration":0,"pictures":[640,1920],"videos_count":0},"videos":{"count":10,"fields":{"id":0,"name":30,"duration":0,"hdr":0,"pictures":[600],"position":0}}}';
         let signature = sha1(action + data.aPrivateKey + jsonData);
@@ -53,9 +53,9 @@ formData.append('signature',signature);
 
         queryString = "https://4krelax.bringstream.com/Engine/apic/apic.php?action=GetVideoInfo&openKey="+data.aOpenKey;
         action="action=GetVideoInfo&openKey="+data.aOpenKey;
-         formData = new FormData();
-         jsonData ='{"id":122235239,"fields":{"name":30,"duration":0,"pictures":[640,1920],"hdr":0}}';
-         signature = sha1(action + data.aPrivateKey + jsonData);
+        formData = new FormData();
+        jsonData ='{"id":122235239,"fields":{"name":30,"duration":0,"pictures":[640,1920],"hdr":0}}';
+        signature = sha1(action + data.aPrivateKey + jsonData);
         console.log("privatekey",data.aPrivateKey);
         formData.append('jsonData',jsonData);
         formData.append('signature',signature);
@@ -77,191 +77,191 @@ formData.append('signature',signature);
 
 
     
-  )
-  .catch(error => {
+)
+.catch(error => {
     console.log("error", error);
-  });
+});
 
 */
 
 const plst=
 [
 {
-     "total_playlists": 29,
-     "total_videos": 896,
-     "total_duration": 5304485,
-     "playlists": [
-          {
-               "id": 1,
-               "name": "FREE 4K Videos",
-               "description": "This collection features free 4K Nature Videos....",
-               "premium": 1,
-               "free": 1,
-               "duration": 8299,
-               "pictures": {
+    "total_playlists": 29,
+    "total_videos": 896,
+    "total_duration": 5304485,
+    "playlists": [
+        {
+            "id": 1,
+            "name": "FREE 4K Videos",
+            "description": "This collection features free 4K Nature Videos....",
+            "premium": 1,
+            "free": 1,
+            "duration": 8299,
+            "pictures": {
                     "640": "https://i.vimeocdn.com/video/903166493_640x360.jpg?r=pad",
                     "1920": "https://i.vimeocdn.com/video/903166493_1920x1080.jpg?r=pad"
-               },
-               "videos_count": 50,
-               "videos": [
+            },
+            "videos_count": 50,
+            "videos": [
                     {
-                         "id": 115516575,
-                         "name": "Mount Rainier 1,2,3- Short ...",
-                         "duration": 137,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/903166493_640x360.jpg?r=pad"
-                         }
+                        "id": 115516575,
+                        "name": "Mount Rainier 1,2,3- Short ...",
+                        "duration": 137,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/903166493_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 122235239,
-                         "name": "Film in 4k  Mount Rainier N...",
-                         "duration": 137,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/511069974_640x360.jpg?r=pad"
-                         }
+                        "id": 122235239,
+                        "name": "Film in 4k  Mount Rainier N...",
+                        "duration": 137,
+                        "hdr": 0,
+                        "pictures": {
+                        "600": "https://i.vimeocdn.com/video/511069974_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 151594002,
-                         "name": "Breathtaking Painted Hills,...",
-                         "duration": 78,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/820614753_640x360.jpg?r=pad"
-                         }
+                        "id": 151594002,
+                        "name": "Breathtaking Painted Hills,...",
+                        "duration": 78,
+                        "hdr": 0,
+                        "pictures": {
+                        "600": "https://i.vimeocdn.com/video/820614753_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 181771518,
-                         "name": "Trailer Relaxation Channel",
-                         "duration": 239,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/903167644_640x360.jpg?r=pad"
-                         }
+                        "id": 181771518,
+                        "name": "Trailer Relaxation Channel",
+                        "duration": 239,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/903167644_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 198538597,
-                         "name": "Yellowstone National Park",
-                         "duration": 140,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/611553447_640x360.jpg?r=pad"
-                         }
+                        "id": 198538597,
+                        "name": "Yellowstone National Park",
+                        "duration": 140,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/611553447_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 205682183,
-                         "name": "Winter in the Carpathians",
-                         "duration": 199,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/620518118_640x360.jpg?r=pad"
-                         }
+                        "id": 205682183,
+                        "name": "Winter in the Carpathians",
+                        "duration": 199,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/620518118_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 215488587,
-                         "name": "Journey to Egypt",
-                         "duration": 87,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/924220278_640x360.jpg?r=pad"
-                         }
+                        "id": 215488587,
+                        "name": "Journey to Egypt",
+                        "duration": 87,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/924220278_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 226863040,
-                         "name": "Grand Canyon - Short Preview",
-                         "duration": 182,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/903176590_640x360.jpg?r=pad"
-                         }
+                        "id": 226863040,
+                        "name": "Grand Canyon - Short Preview",
+                        "duration": 182,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/903176590_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 228560705,
-                         "name": "Flowers & Water - Short Pre...",
-                         "duration": 178,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/903168203_640x360.jpg?r=pad"
-                         }
+                        "id": 228560705,
+                        "name": "Flowers & Water - Short Pre...",
+                        "duration": 178,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/903168203_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 239288568,
-                         "name": "Skagit Valley Tulip Festiva...",
-                         "duration": 189,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/903168780_640x360.jpg?r=pad"
-                         }
+                        "id": 239288568,
+                        "name": "Skagit Valley Tulip Festiva...",
+                        "duration": 189,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/903168780_640x360.jpg?r=pad"
+                        }
                     }
-               ]
-          },
-          {
-               "id": 2,
-               "name": "1-Hour Relax Videos with Na...",
-               "description": "Enjoy 1-hour relax videos with nature sounds th...",
-               "premium": 0,
-               "free": 0,
-               "duration": 598019,
-               "pictures": {
+            ]
+        },
+        {
+            "id": 2,
+            "name": "1-Hour Relax Videos with Na...",
+            "description": "Enjoy 1-hour relax videos with nature sounds th...",
+            "premium": 0,
+            "free": 0,
+            "duration": 598019,
+            "pictures": {
                     "640": "https://i.vimeocdn.com/video/822234503_640x360.jpg?r=pad",
                     "1920": "https://i.vimeocdn.com/video/822234503_1920x1080.jpg?r=pad"
-               },
-               "videos_count": 160,
-               "videos": [
+            },
+            "videos_count": 160,
+            "videos": [
                     {
-                         "id": 173528111,
-                         "name": "Hole in the Wall Trail, USA",
-                         "duration": 3769,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/822234503_640x360.jpg?r=pad"
-                         }
+                        "id": 173528111,
+                        "name": "Hole in the Wall Trail, USA",
+                        "duration": 3769,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/822234503_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 174369185,
-                         "name": "Japanese Garden. Fall",
-                         "duration": 3580,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/821232882_640x360.jpg?r=pad"
-                         }
+                        "id": 174369185,
+                        "name": "Japanese Garden. Fall",
+                        "duration": 3580,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/821232882_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 197785269,
-                         "name": "Smith Rock State Park",
-                         "duration": 3614,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/694141391_640x360.jpg?r=pad"
-                         }
+                        "id": 197785269,
+                        "name": "Smith Rock State Park",
+                        "duration": 3614,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/694141391_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 211625383,
-                         "name": "Hoh River, Early Morning, O...",
-                         "duration": 3715,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/691352383_640x360.jpg?r=pad"
-                         }
+                        "id": 211625383,
+                        "name": "Hoh River, Early Morning, O...",
+                        "duration": 3715,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/691352383_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 230248059,
-                         "name": "Duck Pond",
-                         "duration": 3612,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/693510861_640x360.jpg?r=pad"
-                         }
+                        "id": 230248059,
+                        "name": "Duck Pond",
+                        "duration": 3612,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/693510861_640x360.jpg?r=pad"
+                        }
                     },
                     {
-                         "id": 230248127,
-                         "name": "Emma Matilda Lake, Grand Te...",
-                         "duration": 5477,
-                         "hdr": 0,
-                         "pictures": {
-                              "600": "https://i.vimeocdn.com/video/693510544_640x360.jpg?r=pad"
-                         }
+                        "id": 230248127,
+                        "name": "Emma Matilda Lake, Grand Te...",
+                        "duration": 5477,
+                        "hdr": 0,
+                        "pictures": {
+                            "600": "https://i.vimeocdn.com/video/693510544_640x360.jpg?r=pad"
+                        }
                     },
                     {
                          "id": 230428260,

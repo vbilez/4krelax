@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
 
-    return (
-        <React.Fragment>
-            <section className="about">
+     return (
+     <React.Fragment>
+          <section className="about">
 <div className="container-custom">
 
 <h2>About Us</h2>
@@ -15,10 +15,10 @@ const About = () => {
 <p className="lighterfont">We are also offering Apps for all kinds of devices so that you can get a subscription and use our App for the platform convenient for you.</p>
 <p className="lighterfont">Videos offered by <strong>4K Nature Relax TV</strong> are not just an entertainment, but a unique therapy as well. Fantastic scenery combined with soothing music is the best stress healer, helping your mind to get some rest from hustle and bustle of the modern world and to feel calm and peaceful. Furthermore, our team's passion to share the beauty of our world with others helps to chose the most magic and worthy places for shooting videos.</p>
 
-   <div class="box2-inf-v">
+<div class="box2-inf-v">
                     <a className="box2-i-star" href="subscription">Free 30 days trial!</a>
                     <a className="box2-i-more" href="how">How it Works</a>
-                  </div>
+               </div>
 
 </div>
 </section>
@@ -34,7 +34,7 @@ const About = () => {
 <div className="more-inform my-2 my-lg-0">
 <p className="footer-follow"></p><h6>Available on multiple devices.</h6><p></p>
      <div className="social">
-        
+     
 
           <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android.png" alt="android app"/></a>
           <a href="https://itunes.apple.com/us/app/4k-nature-relax-tv/id1403683336?mt=8" target="_blank" rel="nofollow"><img src="/img/platforms/iphone.png" alt="iphone app"/></a>
@@ -48,9 +48,9 @@ const About = () => {
 
      </div>
 </div>
-    </div>
-        </React.Fragment> 
-    )
+</div>
+     </React.Fragment> 
+)
 }
 
 export default About;

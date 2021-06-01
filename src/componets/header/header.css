@@ -39,7 +39,7 @@
 }
 
 .header-content nav ul li a{
-   color: white;
+    color: white;
 }
 
 .login-box {
@@ -151,5 +151,5 @@
 
 
 .faaple a:hover {
- color:#ccc;
+color:#ccc;
 }

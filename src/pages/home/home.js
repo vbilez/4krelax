@@ -7,41 +7,41 @@ import PlaylistCarousel from '../../componets/playlistcarousel/playlistcarousel'
 import PlaylistView from '../../componets/playlistview/playlistview';
 import PlaylistViewSecond from '../../componets/playlistviewsecond/playlistviewsecond';
 import Slickplaylists from '../../componets/slickplaylists/slickplaylists';
-const Home = (props) => {
-    const $=window.jQuery;
-    var [filterplst, setFilterplst] = useState([]);
+     const Home = (props) => {
+     const $=window.jQuery;
+     var [filterplst, setFilterplst] = useState([]);
 filterplst=[props.plst[0],props.plst[1],props.plst[2]];
 var [threeplst, setThreeplst] = useState([]);
 threeplst =[props.plst[0],props.plst[1],props.plst[2]];
 const [filterplstsc, setFilterplstsc] = useState(filterplst);
 const [isSearch, setIsSearch] = useState(false);
 var filteredplaylists=[];
-    return (
-        <div>
-            <header className="top_header ha-waypoint ha-header-small header35">
+     return (
+          <div>
+          <header className="top_header ha-waypoint ha-header-small header35">
 
-         <div id="slides" style={{"position":"relative","overflow":"hidden","width":"100%","height":"937px"}}>
-             <div className="slides-control" style={{"position":"relative","height":"100%","width":"100%"}}><ul className="slides-container" style={{"margin":"0px","padding":"0px","listStyle":"none","position":"relative","height":"100%","display":"block"}}>
+     <div id="slides" style={{"position":"relative","overflow":"hidden","width":"100%","height":"937px"}}>
+          <div className="slides-control" style={{"position":"relative","height":"100%","width":"100%"}}><ul className="slides-container" style={{"margin":"0px","padding":"0px","listStyle":"none","position":"relative","height":"100%","display":"block"}}>
 
-                 <li style={{"display":"block","left":"1021px","position":"absolute","overflow":"hidden","height":"100%","width":"1021px","top":"0px","zIndex":"2","opacity":"1"}}>
-                     <img src="img/w-1.jpg" alt="4k nature relax tv slider" style={{"backfaceVisibility":"hidden","position":"absolute","left":"-616.5px","top":"0px","zIndex":"-1","maxWidth":"none","height":"937px","width":"2254.44px"}}/>
+               <li style={{"display":"block","left":"1021px","position":"absolute","overflow":"hidden","height":"100%","width":"1021px","top":"0px","zIndex":"2","opacity":"1"}}>
+                    <img src="img/w-1.jpg" alt="4k nature relax tv slider" style={{"backfaceVisibility":"hidden","position":"absolute","left":"-616.5px","top":"0px","zIndex":"-1","maxWidth":"none","height":"937px","width":"2254.44px"}}/>
                     
-                     <div className="content-slides">
+                    <div className="content-slides">
                          <div className="container-custom">
-                             <div className="row">
-                                 <div className="col-sm-12 col-md-6">
-                                     <div className="container-animation cn-text">
-                                         <h3>Love the Earth – Relax with Nature!v1</h3>
-                                         <strong>Turn on your TVs and stream relax videos in PREMIUM 4K &amp; 4K HDR quality.</strong>
-                                         <div className="cn-text-style">
-                                              <p>Take a deep breath, escape to beautiful natural destinations and experience nature like never before with a new app from Pro Art inc. An incredible collection of 4K &amp; 4K HDR nature relax videos with more than 1000 hours of sensational nature relax ad-free videos bring natural wonders closer!</p>
-                                         </div>
-                                    </div>
-                               </div>
-                               <div className=" col-sm-12 col-md-6">
+                         <div className="row">
+                              <div className="col-sm-12 col-md-6">
+                                   <div className="container-animation cn-text">
+                                        <h3>Love the Earth – Relax with Nature!v1</h3>
+                                        <strong>Turn on your TVs and stream relax videos in PREMIUM 4K &amp; 4K HDR quality.</strong>
+                                        <div className="cn-text-style">
+                                             <p>Take a deep breath, escape to beautiful natural destinations and experience nature like never before with a new app from Pro Art inc. An incredible collection of 4K &amp; 4K HDR nature relax videos with more than 1000 hours of sensational nature relax ad-free videos bring natural wonders closer!</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div className=" col-sm-12 col-md-6">
                                    <div id="embed_container" className=" embed_container container-animation cn-video">
 								<div className="video-frame2"><iframe title="sometitle" className="black_back" type="text/html" src="https://player.vimeo.com/video/422874793" id="video" width="490" height="274" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen=""></iframe></div>
-                                       
+                                   
                                    </div>
                               </div>
                          </div>
@@ -102,27 +102,26 @@ var filteredplaylists=[];
                               </div> 
                          </div>
                     </div>
-                 <section className="free-preview" style={{"backgroundImage":"url('https://i.vimeocdn.com/video/904334858_640x360.jpg?r=pad')","display":"block"}}>
-    <div className="free-preview-bg">
-        <div className="fp-slider">
+               <section className="free-preview" style={{"backgroundImage":"url('https://i.vimeocdn.com/video/904334858_640x360.jpg?r=pad')","display":"block"}}>
+     <div className="free-preview-bg">
+          <div className="fp-slider">
           
-            <PlaylistViewFourth playlists={[props.plst[0]]}/>
-        </div>
-        <div className="fp-text">
-                        <h5>FREE PREVIEW - <span id="free_preview_name">Hoh Rain Forest</span></h5>
-            <p><span id="free_preview_duration"> 0:01:03</span> | <span id="free_preview_description">Free 4K Short Preview
+          <PlaylistViewFourth playlists={[props.plst[0]]}/>
+          </div>
+          <div className="fp-text">
+               <h5>FREE PREVIEW - <span id="free_preview_name">Hoh Rain Forest</span></h5>
+          <p><span id="free_preview_duration"> 0:01:03</span> | <span id="free_preview_description">Free 4K Short Preview
 Producer: Roman Khomlyak, Pro Art inc.</span></p>
-            <a href="/video-hoh-rain-forest-279244369-1" className="button" id="watch_free_preview"><i className="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Watch Free Preview</a>
-        </div>
-    </div>
+          <a href="/video-hoh-rain-forest-279244369-1" className="button" id="watch_free_preview"><i className="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Watch Free Preview</a>
+     </div>
+     </div>
 </section>
 
 <section className="carousel-block" style={{"display":"block"}}>
-        <div className="col-md-11 col-sm-10">
-            <PlaylistViewThird playlists={[props.plst[0]]}/>
-      </div>
-    
-    
+          <div className="col-md-11 col-sm-10">
+          <PlaylistViewThird playlists={[props.plst[0]]}/>
+     </div>
+
 </section>               </li>
                <li className="" style={{"display":"none"}}>
 <div className="content__wrapper">
@@ -130,76 +129,76 @@ Producer: Roman Khomlyak, Pro Art inc.</span></p>
 
 <div className="mm justify-content-center">
 <div className=" search-div col-md-11 mw " align="center">
-            <span>
-                <img src="/img/search.svg" alt=""/>
-                <input type="text" id="search_video_s" name="search_video" placeholder="Search video" onChange={(event)=>{
+               <span>
+               <img src="/img/search.svg" alt=""/>
+               <input type="text" id="search_video_s" name="search_video" placeholder="Search video" onChange={(event)=>{
 if(event.target.value!='' && event.target.value!=null){
-    console.log(filterplst);
-                      let searchString = event.target.value;
-                      console.log(searchString);
-                      for(var i=0;i<threeplst.length;i++)
-                      {
+     console.log(filterplst);
+                    let searchString = event.target.value;
+                    console.log(searchString);
+                    for(var i=0;i<threeplst.length;i++)
+                    {
 
-                          var newArray = threeplst[i].videos.filter(function (el) {
-                            return el.name == searchString;
-                            });
-                            filterplst[i].videos=newArray;
+                         var newArray = threeplst[i].videos.filter(function (el) {
+                         return el.name == searchString;
+                         });
+                         filterplst[i].videos=newArray;
 
-                      }
-       console.log(filterplst);
+                    }
+          console.log(filterplst);
                     setIsSearch(true);
 
                     }
                     else {
-                        setIsSearch(false);
+                    setIsSearch(false);
                         //setFilterplst(props.plst);
-                        }
-                
-       }
-       }
-       /> 
-            </span>
-        </div>
+                    }
+          
+          }
+          }
+          /> 
+          </span>
+     </div>
 </div>
 
 <Slickplaylists playlists={props.plst}/>
 <div >
 {isSearch ? (
-    
+
 <div className=" playlists-scrollbox">
 <PlaylistViewSecond playlists={filterplst}/>
-        </div>
-  
+     </div>
+
 ):(
 
-  
+
 <div className=" playlists-scrollbox">
 <PlaylistView playlists={threeplst}/>
-        </div>
-    
+     </div>
+
 )}
 </div>
 
 
 </div>
-    </div>                
+</div>                
 <div id="hidden_playlists" style={{"display":"none"}}>
-    </div>
-    <div class="col-12 bottom-show">
-                <a href="/explore">Show More</a>
-            </div>
+</div>
+<div class="col-12 bottom-show">
+               <a href="/explore">Show More</a>
+          </div>
 <script>
-    $(function () {
-        setTimeout(function () {
+$(function () {
+     setTimeout(function () {
 
-            var hp = $('#hidden_playlists .item-list');
-            var pp = $('.playlists-scrollbox');
-            pp.append(hp);
+          var hp = $('#hidden_playlists .item-list');
+          var pp = $('.playlists-scrollbox');
+          pp.append(hp);
 //    $.each(hp, function(i,v){
 //        pp.append(v);
 //    });
 }, 1000)
-    });
+     });
 </script>               </li>
           </ul>
      </div>
@@ -216,7 +215,7 @@ if(event.target.value!='' && event.target.value!=null){
 <div className="more-inform my-2 my-lg-0">
 <p className="footer-follow"></p><h6>Available on multiple devices.</h6><p></p>
      <div className="social">
-        
+     
 
           <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android.png" alt="android app"/></a>
           <a href="https://itunes.apple.com/us/app/4k-nature-relax-tv/id1403683336?mt=8" target="_blank" rel="nofollow"><img src="/img/platforms/iphone.png" alt="iphone app"/></a>
@@ -230,9 +229,9 @@ if(event.target.value!='' && event.target.value!=null){
 
      </div>
 </div>
-    </div>
-        </div>
-    )
+     </div>
+     </div>
+     )
 }
 
 export default Home;

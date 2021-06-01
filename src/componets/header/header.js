@@ -11,20 +11,20 @@ const Header = () => {
     <a className="logo navbar-brand" href="/">
         <img className="logoimg" src={logo} alt="logo" />
         </a>
-         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-         <span className="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
     </button>
-       <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+    <div className="collapse navbar-collapse" id="navbarsExampleDefault">
             
                     <ul className="navbar-nav-style navbar-nav mr-auto">
                         <li className="nav-item active"><a href="/" className="nav-link">Home</a></li>
                         <li className="nav-item active"><a href="/about" className="nav-link">About us</a></li>
                         <li className="nav-item active"><a href="/explore" className="nav-link">EXPLORE</a></li>
-                       
-                    </ul>
-          
                     
-              
+                    </ul>
+        
+                    
+            
 <div className="avalid-social mr-auto">
             <p>Available on</p>
             <span className="social social-ios">
@@ -37,13 +37,13 @@ const Header = () => {
             </span>
         </div>
                 
-         <div className="more-inform my-2 my-lg-0">
+        <div className="more-inform my-2 my-lg-0">
                 <a href="subscription" className="bottom-smart" id="navBarStartTrial">
                     <i className="fa fa-play-circle"></i>
                     <span>Start free trial!</span>
                 </a>
                 <a href="login" className="sign-in">Log in</a>
-          </div>
+        </div>
             </div>
         </nav>
     )

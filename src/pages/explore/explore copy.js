@@ -27,7 +27,7 @@ const Explore = () => {
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="css/owl.carousel.css"/>
 
- 
+
         <script src="js/modernizr.custom.79639.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript> 
 
@@ -177,7 +177,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
 </div>
 
 <script>
-   
+
 </script>
 <div className="content__wrapper">
     <div className="row justify-content-center">
@@ -187,7 +187,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                 <input type="text" id="search_video" name="search_video" placeholder="Search video"/> 
             </span>
         </div>
-		        <div id="nothing_found" style="display: none;">
+<div id="nothing_found" style="display: none;">
             Sorry, there are no video corresponding your search phrase.
         </div>
 		<div className="play-list-names col-md-11 col-sm-10  slick-initialized slick-slider"><button className="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;"></button><div className="slick-list draggable"><div className="slick-track" style="opacity: 1; width: 160000px; transform: translate3d(-245px, 0px, 0px);"><div className="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-4k-8k-screensavers-wallpapers-3" tabindex="-1">4K 8K Screensavers-Wallpapers</a></div></div></div><div className="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false"><div><div className="item" style="width: 100%; display: inline-block;"><span>All playlists</span></div></div></div><div className="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-new-videos-0" tabindex="-1">New videos</a></div></div></div><div className="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-free-4k-4k-hdr-videos-1" tabindex="-1">FREE 4K &amp; 4K HDR Videos</a></div></div></div><div className="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-aerial-footage-4k-4k-hdr-14" tabindex="-1">Aerial Footage 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-tropical-beaches-4k-4k-hdr-7" tabindex="-1">Tropical Beaches 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-wildlife-videos-4k-4k-hdr-27" tabindex="-1">Wildlife Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-gardens-4k-4k-hdr-6" tabindex="-1">Gardens 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-forests-woods-4k-4k-hdr-24" tabindex="-1">Forests &amp; Woods 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nature-documentaries-with-narration-english-4k-4k-hdr-9" tabindex="-1">Nature Documentaries with Narration (English) 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nature-documentary-films-4k-4k-hdr-no-narration--10" tabindex="-1">Nature Documentary Films 4K &amp; 4K HDR (NO NARRATION)</a></div></div></div><div className="slick-slide" data-slick-index="10" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-waterfalls-4k-4k-hdr-19" tabindex="-1">Waterfalls 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="11" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-virtual-hikes-4k-4k-hdr-16" tabindex="-1">Virtual Hikes 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="12" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-oceans-seas-4k-4k-hdr-21" tabindex="-1">Oceans &amp; Seas 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="13" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-mountains-4k-4k-hdr-22" tabindex="-1">Mountains 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="14" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-relax-videos-with-nature-sounds-4k-4k-hdr-28" tabindex="-1">Relax Videos with Nature Sounds 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="15" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-part-2-relax-videos-with-nature-sounds-4k-4k-hdr-31" tabindex="-1">Part 2 - Relax Videos with Nature Sounds 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="16" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-1-hour-relax-videos-with-nature-sounds-in-4k-4k-hdr-2" tabindex="-1">1-Hour Relax Videos with Nature Sounds in 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="17" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-flowers-flower-fields-4k-4k-hdr-25" tabindex="-1">Flowers &amp; Flower Fields 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="18" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-relax-videos-with-soothing-music-4k-4k-hdr-18" tabindex="-1">Relax Videos with Soothing Music 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="19" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-rivers-streams-4k-4k-hdr-15" tabindex="-1">Rivers &amp; Streams 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="20" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-lakes-4k-4k-hdr-23" tabindex="-1">Lakes 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="21" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-sunsets-sunrises-4k-4k-hdr-20" tabindex="-1">Sunsets &amp; Sunrises 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="22" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nighttime-relax-videos-4k-4k-hdr-35" tabindex="-1">Nighttime Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="23" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-short-relax-videos-4k-4k-hdr-12" tabindex="-1">Short Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="24" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-foreign-languages-films-4k-hdr-4k-8" tabindex="-1">Foreign Languages Films 4K HDR &amp; 4K</a></div></div></div><div className="slick-slide" data-slick-index="25" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-stress-relief-videos-with-voice-over-4k-hdr-4k-34" tabindex="-1">Stress Relief Videos with Voice Over 4K HDR &amp; 4K</a></div></div></div><div className="slick-slide" data-slick-index="26" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-campfires-4k-4k-hdr-26" tabindex="-1">Campfires 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="27" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-autumn-relax-videos-4k-4k-hdr-38" tabindex="-1">Autumn Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="28" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-winter-relax-videos-4k-4k-hdr-29" tabindex="-1">Winter Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="29" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-zoo-4k-4k-hdr-5" tabindex="-1">Zoo 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="30" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-aquarium-life-4k-4k-hdr-4" tabindex="-1">Aquarium Life 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide" data-slick-index="31" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-4k-8k-screensavers-wallpapers-3" tabindex="-1">4K 8K Screensavers-Wallpapers</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="32" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><span>All playlists</span></div></div></div><div className="slick-slide slick-cloned" data-slick-index="33" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-new-videos-0" tabindex="-1">New videos</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="34" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-free-4k-4k-hdr-videos-1" tabindex="-1">FREE 4K &amp; 4K HDR Videos</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="35" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-aerial-footage-4k-4k-hdr-14" tabindex="-1">Aerial Footage 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="36" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-tropical-beaches-4k-4k-hdr-7" tabindex="-1">Tropical Beaches 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="37" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-wildlife-videos-4k-4k-hdr-27" tabindex="-1">Wildlife Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="38" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-gardens-4k-4k-hdr-6" tabindex="-1">Gardens 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="39" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-forests-woods-4k-4k-hdr-24" tabindex="-1">Forests &amp; Woods 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="40" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nature-documentaries-with-narration-english-4k-4k-hdr-9" tabindex="-1">Nature Documentaries with Narration (English) 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="41" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nature-documentary-films-4k-4k-hdr-no-narration--10" tabindex="-1">Nature Documentary Films 4K &amp; 4K HDR (NO NARRATION)</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="42" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-waterfalls-4k-4k-hdr-19" tabindex="-1">Waterfalls 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="43" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-virtual-hikes-4k-4k-hdr-16" tabindex="-1">Virtual Hikes 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="44" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-oceans-seas-4k-4k-hdr-21" tabindex="-1">Oceans &amp; Seas 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="45" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-mountains-4k-4k-hdr-22" tabindex="-1">Mountains 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="46" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-relax-videos-with-nature-sounds-4k-4k-hdr-28" tabindex="-1">Relax Videos with Nature Sounds 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="47" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-part-2-relax-videos-with-nature-sounds-4k-4k-hdr-31" tabindex="-1">Part 2 - Relax Videos with Nature Sounds 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="48" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-1-hour-relax-videos-with-nature-sounds-in-4k-4k-hdr-2" tabindex="-1">1-Hour Relax Videos with Nature Sounds in 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="49" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-flowers-flower-fields-4k-4k-hdr-25" tabindex="-1">Flowers &amp; Flower Fields 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="50" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-relax-videos-with-soothing-music-4k-4k-hdr-18" tabindex="-1">Relax Videos with Soothing Music 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="51" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-rivers-streams-4k-4k-hdr-15" tabindex="-1">Rivers &amp; Streams 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="52" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-lakes-4k-4k-hdr-23" tabindex="-1">Lakes 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="53" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-sunsets-sunrises-4k-4k-hdr-20" tabindex="-1">Sunsets &amp; Sunrises 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="54" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-nighttime-relax-videos-4k-4k-hdr-35" tabindex="-1">Nighttime Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="55" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-short-relax-videos-4k-4k-hdr-12" tabindex="-1">Short Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="56" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-foreign-languages-films-4k-hdr-4k-8" tabindex="-1">Foreign Languages Films 4K HDR &amp; 4K</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="57" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-stress-relief-videos-with-voice-over-4k-hdr-4k-34" tabindex="-1">Stress Relief Videos with Voice Over 4K HDR &amp; 4K</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="58" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-campfires-4k-4k-hdr-26" tabindex="-1">Campfires 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="59" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-autumn-relax-videos-4k-4k-hdr-38" tabindex="-1">Autumn Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="60" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-winter-relax-videos-4k-4k-hdr-29" tabindex="-1">Winter Relax Videos 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="61" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-zoo-4k-4k-hdr-5" tabindex="-1">Zoo 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="62" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-aquarium-life-4k-4k-hdr-4" tabindex="-1">Aquarium Life 4K &amp; 4K HDR</a></div></div></div><div className="slick-slide slick-cloned" data-slick-index="63" aria-hidden="true" tabindex="-1"><div><div className="item" style="width: 100%; display: inline-block;"><a href="/playlist-4k-8k-screensavers-wallpapers-3" tabindex="-1">4K 8K Screensavers-Wallpapers</a></div></div></div></div></div><button className="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;"></button></div>
@@ -334,56 +334,6 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 15767px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-hoh-rain-forest-279244369-1">
                                     <div className="c-item-style item-style-play">
@@ -901,41 +851,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
+                                                     
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 11037px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-bird-s-eye-view-of-croatia-303460092-14">
                                     <div className="c-item-style item-style-lock">
@@ -1304,50 +1220,6 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
                                                     
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 14190px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-oahu-beaches-hawaii-2-303460829-7">
                                     <div className="c-item-style item-style-lock">
@@ -1814,55 +1686,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
+                                                     
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 15452px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-wild-botswana-african-wildlife-8-hrs-462540425-27">
                                     <div className="c-item-style item-style-lock">
@@ -16087,24 +15911,6 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
                                                     
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5992px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-serene-atmosphere-of-vermillion-lakes-canada-wintertime-4k-hdr-nature-relax-video-480781922-29">
                                     <div className="c-item-style item-style-lock">
@@ -16311,11 +16117,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
-                                                        
+
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1577px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-parrots-276056176-5">
                                     <div className="c-item-style item-style-lock">
@@ -16382,10 +16184,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
+ 
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1262px;"><div className="owl-item active" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-relaxing-dance-of-jellyfish-4k-aquarium-screensaver-with-ambient-music-458891380-4">
                                     <div className="c-item-style item-style-lock">
@@ -16442,17 +16241,7 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
                         <div></div>
                     </div>
                     <div className="owl-carousel videos-list owl-loaded owl-drag">
-                                                    
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
+                                        
                                                 <div className="owl-stage-outer"><div className="owl-stage" style="transform: translate3d(-630px, 0px, 0px); transition: all 0.25s ease 0s; width: 3469px;"><div className="owl-item" style="width: 305.333px; margin-right: 10px;"><div className="item">
                                 <a href="/video-italian-nature-and-cityscapes-10-bot-color-4k-wallpapers-slideshow-460031823-3">
                                     <div className="c-item-style item-style-lock">
@@ -16568,99 +16357,70 @@ src="https://www.facebook.com/tr?id=604730377121086&ev=PageView&noscript=1"
             </div>
 </div>
 <div id="hidden_playlists" style="display:none">
-                    
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                </div>
-               
-               
+ </div>
+
 <script>
-  
+
 </script>
 </section>
 <section className="main-sign-up">
-     <div className="signup-text">
-          <h5>Love the Earth – Relax with Nature!</h5>
-          <p>Behold the beauty of nature! <b>Relax and restore yourself together with 4K Nature Relax TV.</b> Experience the majestic landscapes, enjoy the stunning views of the mountains, explore the diverse wildlife, listen to the soothing sounds of the rushing waterfalls and calm lakes, enjoy birds singing in the deep forests and more. <b>4K Relax TV brings peace and restores your inner peace and harmony in your life!</b></p>
-          <a href="subscription" className="button">Sign Up Now</a>
-     </div>
+    <div className="signup-text">
+        <h5>Love the Earth – Relax with Nature!</h5>
+        <p>Behold the beauty of nature! <b>Relax and restore yourself together with 4K Nature Relax TV.</b> Experience the majestic landscapes, enjoy the stunning views of the mountains, explore the diverse wildlife, listen to the soothing sounds of the rushing waterfalls and calm lakes, enjoy birds singing in the deep forests and more. <b>4K Relax TV brings peace and restores your inner peace and harmony in your life!</b></p>
+        <a href="subscription" className="button">Sign Up Now</a>
+    </div>
 
 </section>
 <div className="under-footer">
 <div className="more-inform my-2 my-lg-0">
 <p className="footer-follow"></p><h6>Available on multiple devices.</h6><p></p>
-     <div className="social">
-          <i className="custom-share-alt"><img src="img/share.svg" alt="sv" /></i>
-          <a href="#"><i className="fa fa-youtube"></i></a>
-          <a href="https://www.facebook.com/4K-Nature-Relax-TV-552306398115033/" target="_blank" rel="nofollow"><i className="fa fa-facebook"></i></a>
-          <a href="https://www.instagram.com/roman.nature.filmmaker/" target="_blank" rel="nofollow"><i className="fa fa-instagram"></i></a>
-          <a href="https://twitter.com/beautifulwash" target="_blank" rel="nofollow"><i className="fa fa-twitter"></i></a>-->
+<div className="social">
+    <i className="custom-share-alt"><img src="img/share.svg" alt="sv" /></i>
+    <a href="#"><i className="fa fa-youtube"></i></a>
+    <a href="https://www.facebook.com/4K-Nature-Relax-TV-552306398115033/" target="_blank" rel="nofollow"><i className="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/roman.nature.filmmaker/" target="_blank" rel="nofollow"><i className="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/beautifulwash" target="_blank" rel="nofollow"><i className="fa fa-twitter"></i></a>
 
-          <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android.png" alt="android app"/></a>
-          <a href="https://itunes.apple.com/us/app/4k-nature-relax-tv/id1403683336?mt=8" target="_blank" rel="nofollow"><img src="/img/platforms/iphone.png" alt="iphone app"/></a>
-          <a href="https://channelstore.roku.com/en-gb/details/268607/4k-nature-relax-tv" target="_blank" rel="nofollow"><img src="/img/platforms/roku.png" alt="roku app"/></a>
-          <a href="#" rel="nofollow"><img src="/img/platforms/samsung-smart-tv.png" alt="roku app"/></a>
+        <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android.png" alt="android app"/></a>
+        <a href="https://itunes.apple.com/us/app/4k-nature-relax-tv/id1403683336?mt=8" target="_blank" rel="nofollow"><img src="/img/platforms/iphone.png" alt="iphone app"/></a>
+        <a href="https://channelstore.roku.com/en-gb/details/268607/4k-nature-relax-tv" target="_blank" rel="nofollow"><img src="/img/platforms/roku.png" alt="roku app"/></a>
+        <a href="#" rel="nofollow"><img src="/img/platforms/samsung-smart-tv.png" alt="roku app"/></a>
 
-          <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android-tv.png" alt="android tv"/></a>
-          <a href="https://apps.apple.com/us/app/4k-nature-relax-tv/id1403683336#?platform=appleTV" target="_blank" rel="nofollow"><img src="/img/platforms/apple-tv.png" alt="apple tv"/></a>
-          <a href="https://www.amazon.com/Pro-Art-inc-Nature-Relax/dp/B074MC1G9X" target="_blank" rel="nofollow"><img src="/img/platforms/fire-tv.png" alt="amazon fire tv"/></a>
-          
+        <a href="https://play.google.com/store/apps/details?id=xyz.gameoff.relaxation" target="_blank" rel="nofollow"><img src="/img/platforms/android-tv.png" alt="android tv"/></a>
+        <a href="https://apps.apple.com/us/app/4k-nature-relax-tv/id1403683336#?platform=appleTV" target="_blank" rel="nofollow"><img src="/img/platforms/apple-tv.png" alt="apple tv"/></a>
+        <a href="https://www.amazon.com/Pro-Art-inc-Nature-Relax/dp/B074MC1G9X" target="_blank" rel="nofollow"><img src="/img/platforms/fire-tv.png" alt="amazon fire tv"/></a>
 
-     </div>
+
+    </div>
 </div>
     </div>
-     </body>
+    </body>
 <script>
-   
+
 </script>
 
 <footer className="footer">
-   	<div className="container">
+<div className="container">
 		<div className="row row-f-pl justify-content-md-center">
 		
 			<div className="col-lg-7">
-                   <p className="footer-info">text</p>
+        <p className="footer-info">text</p>
 
                     <ul className="footer-menu">
-                         <li className="active"><a href="/">Home</a></li>
-                         <li><a href="how">How it Works</a></li>
-                         <li><a href="privacy">Privacy Policy</a></li>
-                         <li><a href="terms">Term of Use</a></li>
-                         <li><a href="license">Custom License</a></li>
-                         <li><a href="business">For Bussines</a></li>
-                         <li><a href="support">Support</a></li>
-                         <li><a href="faq">FAQ</a></li>
+                        <li className="active"><a href="/">Home</a></li>
+                        <li><a href="how">How it Works</a></li>
+                        <li><a href="privacy">Privacy Policy</a></li>
+                        <li><a href="terms">Term of Use</a></li>
+                        <li><a href="license">Custom License</a></li>
+                        <li><a href="business">For Bussines</a></li>
+                        <li><a href="support">Support</a></li>
+                        <li><a href="faq">FAQ</a></li>
                     </ul>
                     <p className="footer-copy">© 2019 <a href="https://4krelax.com/">4K Nature Relax TV</a>. All Rights Reserved </p>
-               </div>
+            </div>
 
-          </div>
-     </div>
+        </div>
+    </div>
 </footer>
 </html>
 
