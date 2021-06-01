@@ -7,8 +7,6 @@ const About = () => {
           <section className="about">
 <div className="container-custom">
 
-<h2>About Us</h2>
-
 <br/>
 <p className="lighterfont"><strong>4K Nature Relax TV - a new creation of ProArtInc</strong>, presenting an incredible collection of <strong>4K &amp; 4K HDR nature relaxation videos</strong>. More than <strong>1000 hours</strong> of sensational nature relax ad-free videos will carry you away to an incredible virtual journey to the world’s most beautiful, breathtaking places, giving you a chance either to immerse yourself into new countries and places you always dreamed to visit, but have never had a chance to, or just to relax after an intense, bustling day to the nature views and sounds.</p>
 <p className="lighterfont">Our abundant collection includes a wide-range of video formats and styles, featuring various locations throughout the world. And 4K &amp; 4K HDR quality will help you to feel like amidst a real forest or walking near an amazing alpine lake.</p>

@@ -9,18 +9,19 @@ import PlaylistViewSecond from '../../componets/playlistviewsecond/playlistviews
 import Slickplaylists from '../../componets/slickplaylists/slickplaylists';
 import "./explore4k.css";
 import sha1 from 'crypto-js/sha1';
-const Explore = (props) => {
+
+    const Explore = (props) => {
     const $=window.jQuery;
-var [filterplst, setFilterplst] = useState([]);
-const people = [
-"Siri",
-"Alexa",
-"Google",
-"Facebook",
-"Twitter",
-"Linkedin",
-"Sinkedin"
-];
+    var [filterplst, setFilterplst] = useState([]);
+    const people = [
+    "Siri",
+    "Alexa",
+    "Google",
+    "Facebook",
+    "Twitter",
+    "Linkedin",
+    "Sinkedin"
+    ];
 const [searchTerm, setSearchTerm] = React.useState("");
 const [searchResults, setSearchResults] = React.useState([]);
 const handleChange = event => {
